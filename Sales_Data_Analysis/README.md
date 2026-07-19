@@ -32,11 +32,12 @@ visualization with a simple sales dataset.
 ## Project Structure
 
 ```text
-Projeto_Vendas/
+Sales_Data_Analysis/
 ├── analise_vendas.py
 ├── vendas.csv
-├── graficos/
-│   └── faturamento_mensal.png
+├── charts/
+│   └── monthly_revenue.png
+├── .gitignore
 └── README.md
 ```
 
@@ -45,7 +46,7 @@ Projeto_Vendas/
 ### 1. Open the project folder
 
 ```bash
-cd Projeto_Vendas
+cd Sales_Data_Analysis
 ```
 
 ### 2. Create a virtual environment
@@ -134,8 +135,8 @@ The monthly revenue chart uses:
 - A grid to make values easier to read
 - Labels for the month and revenue axes
 
-The `graficos/` folder is used to organize image files created from the
-analysis, such as `faturamento_mensal.png`.
+The `charts/` folder is used to organize image files created from the
+analysis, such as `monthly_revenue.png`.
 
 ## Manual Testing
 
@@ -149,7 +150,7 @@ To validate the project:
 
 ## Future Improvements
 
-- Save the chart automatically in the `graficos/` folder
+- Save the chart automatically in the `charts/` folder
 - Add automated tests
 - Add validation for missing or invalid CSV columns
 - Format monetary values using Brazilian currency conventions
