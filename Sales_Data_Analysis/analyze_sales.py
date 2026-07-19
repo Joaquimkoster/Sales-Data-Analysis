@@ -69,7 +69,7 @@ def grafico(faturamento_mes):
     plt.tight_layout()
     plt.show()
 
-arquivo_vendas = Path(__file__).resolve().parent / "vendas.csv"
+arquivo_vendas = Path(__file__).resolve().parent / "sales.csv"
 df = pd.read_csv(arquivo_vendas)
 
 quantidade_vendas = quantidade_total_vendas(df)

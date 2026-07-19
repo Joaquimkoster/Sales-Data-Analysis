@@ -33,8 +33,8 @@ visualization with a simple sales dataset.
 
 ```text
 Sales_Data_Analysis/
-├── analise_vendas.py
-├── vendas.csv
+├── analyze_sales.py
+├── sales.csv
 ├── charts/
 │   └── monthly_revenue.png
 ├── .gitignore
@@ -76,7 +76,7 @@ pip install pandas matplotlib
 ### 4. Run the analysis
 
 ```bash
-python analise_vendas.py
+python analyze_sales.py
 ```
 
 The results will be printed in the terminal, and a window containing the
@@ -84,7 +84,7 @@ monthly revenue chart will open.
 
 ## Dataset
 
-The `vendas.csv` file stores the sales records used by the analysis. It
+The `sales.csv` file stores the sales records used by the analysis. It
 contains the following columns:
 
 - `Data`: date of the sale
@@ -103,11 +103,11 @@ Revenue = Quantity × Unit Price
 
 ## How It Works
 
-The main flow is handled by `analise_vendas.py`.
+The main flow is handled by `analyze_sales.py`.
 
 The program:
 
-1. Locates and reads `vendas.csv` with Pandas.
+1. Locates and reads `sales.csv` with Pandas.
 2. Processes the dataset through separate analysis functions.
 3. Calculates the main sales indicators.
 4. Converts the date column to a date format.
@@ -142,11 +142,11 @@ analysis, such as `monthly_revenue.png`.
 
 To validate the project:
 
-1. Run `python analise_vendas.py`.
+1. Run `python analyze_sales.py`.
 2. Check whether all indicators appear in the terminal.
 3. Confirm that the monthly revenue values are displayed.
 4. Confirm that the Matplotlib chart window opens correctly.
-5. Compare a few results manually with the values in `vendas.csv`.
+5. Compare a few results manually with the values in `sales.csv`.
 
 ## Future Improvements
 
