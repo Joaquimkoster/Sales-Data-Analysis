@@ -1,0 +1,31 @@
+Data,Pedido,Cliente,Categoria,Produto,Quantidade,Preco_Unitario
+2026-01-03,1001,João,Pizzas,Pizza Calabresa,2,48
+2026-01-05,1002,Maria,Bebidas,Refrigerante 2L,1,12
+2026-01-08,1003,Carlos,Lanches,X-Bacon,3,34
+2026-01-12,1004,Ana,Sobremesas,Pudim,2,18
+2026-01-18,1005,Lucas,Pizzas,Pizza Portuguesa,1,55
+2026-02-02,1006,Fernanda,Pizzas,Pizza Calabresa,3,48
+2026-02-07,1007,Pedro,Bebidas,Suco Natural,2,10
+2026-02-10,1008,Marcos,Lanches,X-Salada,4,30
+2026-02-15,1009,Sofia,Sobremesas,Torta de Limão,2,22
+2026-02-23,1010,Julia,Pizzas,Pizza Frango,2,52
+2026-03-01,1011,Gabriel,Pizzas,Pizza Calabresa,5,48
+2026-03-05,1012,Amanda,Lanches,X-Bacon,2,34
+2026-03-11,1013,Paulo,Bebidas,Refrigerante 2L,3,12
+2026-03-16,1014,Camila,Sobremesas,Pudim,3,18
+2026-03-25,1015,Rafael,Pizzas,Pizza Portuguesa,2,55
+2026-04-02,1016,Laura,Lanches,X-Salada,2,30
+2026-04-06,1017,Thiago,Pizzas,Pizza Calabresa,4,48
+2026-04-14,1018,Isabela,Bebidas,Suco Natural,5,10
+2026-04-22,1019,Bruno,Sobremesas,Torta de Limão,4,22
+2026-04-28,1020,Beatriz,Pizzas,Pizza Frango,3,52
+2026-05-03,1021,Henrique,Pizzas,Pizza Portuguesa,4,55
+2026-05-09,1022,Alice,Lanches,X-Bacon,3,34
+2026-05-15,1023,Daniel,Bebidas,Refrigerante 2L,6,12
+2026-05-21,1024,Luiza,Sobremesas,Pudim,5,18
+2026-05-29,1025,Miguel,Pizzas,Pizza Calabresa,3,48
+2026-06-04,1026,Helena,Pizzas,Pizza Frango,2,52
+2026-06-10,1027,Vinicius,Lanches,X-Salada,4,30
+2026-06-16,1028,Clara,Bebidas,Suco Natural,4,10
+2026-06-22,1029,Arthur,Sobremesas,Torta de Limão,3,22
+2026-06-30,1030,Emanuel,Pizzas,Pizza Portuguesa,2,55
